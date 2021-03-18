@@ -12,8 +12,8 @@ python -m pip install -r requirements.txt
 ```
 
 Also, you'll need to set the `FLASK_APP`environment variable to the path of the project file like this:
-- On Windows: `SET FLASK_APP=path/to/webserver.py`
-- On Linux: `EXPORT FLASK_APP=path/to/webserver.py`
+- On Windows: `set FLASK_APP=path/to/webserver.py`
+- On Linux: `export FLASK_APP=path/to/webserver.py`
 
 Finally, you will be able to run the server by writing on shell/cmd: 
 ```
