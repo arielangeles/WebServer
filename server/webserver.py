@@ -1,5 +1,4 @@
-from flask import Flask, jsonify
-from flask import request
+from flask import Flask, jsonify, request
 from http import HTTPStatus
 from validators import validate_key_parse
 
@@ -60,4 +59,4 @@ def delete_message(message_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
